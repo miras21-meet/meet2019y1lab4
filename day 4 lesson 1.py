@@ -1,0 +1,33 @@
+import turtle
+#drowing square
+turtle.bgcolor('yellow')
+turtle.shape('turtle')
+momo = turtle.clone()
+momo.shape('square')
+momo.color('red')
+momo.left(90)
+momo.forward(100)
+momo.left(90)
+momo.forward(100)
+momo.left(90)
+momo.forward(100)
+momo.left(90)
+momo.forward(100)
+momo.goto(200,300)
+momo.stamp()
+momo.goto(100,100)
+momo.clearstamps()
+
+#momo.left(90)
+#momo.forward(100)
+#turtle.penup()
+#turtle.pendown()
+
+#drowing triangle
+charlie = turtle.clone()
+charlie.shape("arrow")
+charlie.pensize(10)
+charlie.color('blue')
+charlie.goto(100,0)
+charlie.goto(0,-100)
+charlie.goto(0,0)
